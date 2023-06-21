@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html{
+     scroll-behavior: smooth;
+}
+
+body{
+     font-family: 'Roboto',sans-serif;
+     overflow: hidden;
+     background-color: whitesmoke;
+}
+
+body::-webkit-scrollbar{
+     width: 0;
+}
+
+nav{
+     color: rgb(0, 0, 255);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 25px;
+     font-weight: 900;
+     margin-right: 20px;
+     margin-top: 1rem;
+}
+
+header{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     flex-wrap: wrap;
+}
+
+header h2{
+     justify-content: center;
+     align-items: center;
+     margin-top: 2rem;
+     margin-bottom: 1rem;
+     margin-left: 120px;
+     font-size: 28px;
+     font-weight: 900;
+}
+
+header input{
+     margin-top: 14px;
+     margin-bottom: 14px;
+     border-radius: 5px;
+     padding: 16px 150px;
+     font-size: 18px;
+     border: none;
+
+}
+
+header button.submit{
+     margin-top: 0.75rem;
+     margin-bottom: 0.75rem;
+     border-radius: 6px;
+     padding: 0.4rem 0.8rem;
+     width: 100%;
+     background-color: blue;
+     color: black;
+     border: none;
+     font-size: 19px;
+     font-weight: 700;
+}
+
+header button.submit:hover{
+     color: #fff;
+     box-shadow: none;
+}
+
+header p a{
+     margin-top: 0.35rem;
+     margin-bottom: 0.35rem;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+header p{
+     margin-top: 0.35rem;
+     margin-bottom: 0.35rem;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     text-decoration: none;
+}
+
+button{
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 0.75rem;
+     border-radius: 6px;
+     padding: 0.4rem 0.8rem;
+     font-size: 19px;
+     font-weight: 700;
+     width: 80%;
+     border: none;
+     background-color: rgb(5, 247, 5);
+     color: black;
+}
+
+button:hover{
+     color: #fff;
+     box-shadow: none;
+}
