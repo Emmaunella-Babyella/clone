@@ -59,7 +59,7 @@ header input{
 
 }
 
-header button.submit{
+header .btn-login{
      margin-top: 0.75rem;
      margin-bottom: 0.75rem;
      border-radius: 6px;
@@ -72,7 +72,7 @@ header button.submit{
      font-weight: 700;
 }
 
-header button.submit:hover{
+header .btn-login:hover{
      color: #fff;
      box-shadow: none;
 }
@@ -94,11 +94,12 @@ header p{
      text-decoration: none;
 }
 
-button{
-      display: flex;
+.btn-create-acc{
+     display: flex;
      justify-content: center;
      align-items: center;
      margin-top: 0.75rem;
+     margin-left: 3rem;
      border-radius: 6px;
      padding: 0.4rem 0.8rem;
      font-size: 19px;
